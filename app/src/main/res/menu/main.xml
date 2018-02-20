@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_Notification"
+        android:orderInCategory="100"
+        android:title="Notification"
+         />
+    <item
+        android:id="@+id/action_chercher"
+        android:orderInCategory="100"
+        android:title="Chercher Covoiturage"
+        />
+    <item
+        android:id="@+id/action_proposer"
+        android:orderInCategory="100"
+        android:title="Proposer Covoiturage"
+        />
+    <item
+        android:id="@+id/action_Contacter"
+        android:orderInCategory="100"
+        android:title="Contactez_nous"
+        />
+    <item
+        android:id="@+id/action_Deconncter"
+        android:orderInCategory="100"
+        android:title="Deconnexion"
+        />
+
+
+</menu>

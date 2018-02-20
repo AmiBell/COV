@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="PROFIL">
+        <menu>
+            <item android:id="@+id/infperso" android:title="Informations personnelles" />
+            <item android:id="@+id/vehicule" android:title="Véhicule" />
+            <item android:id="@+id/profil" android:title="Voir profil public" />
+        </menu>
+    </item>
+    <item android:title="AVIS">
+        <menu>
+            <item android:id="@+id/avisrec" android:title="Avis reçus" />
+        </menu>
+    </item>
+    <item android:title="TRAJETS">
+        <menu>
+            <item android:id="@+id/avenir" android:title="Mes trajets à venir" />
+            <item android:id="@+id/res" android:title="Mes reservation"/>
+            <item android:id="@+id/map" android:title="MAP" />
+        </menu>
+    </item>
+    <item android:title="PARAMETRES">
+        <menu>
+            <item android:title="Pramaètres de notifications" />
+            <item android:title="Langue" />
+
+        </menu>
+    </item>
+
+
+</menu>
