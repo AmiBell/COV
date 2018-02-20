@@ -80,6 +80,7 @@
         android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="Mot de Pass"
+        android:drawableRight="@drawable/lock"
         android:inputType="textPersonName" />
 
     <EditText
@@ -92,6 +93,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Email"
+        android:drawableRight="@drawable/mail"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -129,6 +131,7 @@
         android:layout_marginTop="11dp"
         android:ems="10"
         android:hint="Confirmer Mot de Pass"
+        android:drawableRight="@drawable/lock"
         android:inputType="textPersonName" />
 
     <CheckBox

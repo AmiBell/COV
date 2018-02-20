@@ -25,6 +25,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="point départ"
+        android:drawableRight="@drawable/dep"
         android:inputType="textPersonName" />
 
     <EditText
@@ -37,6 +38,7 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="point arrivée"
+        android:drawableRight="@drawable/arv"
         android:inputType="textPersonName" />
 
     <EditText
@@ -49,6 +51,7 @@
         android:layout_marginTop="29dp"
         android:ems="10"
         android:hint="Date"
+        android:drawableRight="@drawable/date"
         android:inputType="date" />
 
     <EditText
