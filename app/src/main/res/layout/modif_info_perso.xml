@@ -78,10 +78,11 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="20dp"
             android:text="Changer de mot de passe"
             android:textAlignment="center"
             android:textSize="20sp"
-            android:paddingTop="20dp" />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editText35"

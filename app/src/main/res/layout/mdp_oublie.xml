@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
         android:text="Mot de passe oublié !"
-        android:textColor="#FF4081"
+        android:textColor="@color/colorAccent"
         android:textSize="25sp" />
 
     <TextView
@@ -57,13 +57,13 @@
         android:id="@+id/button5"
         android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="56dp"
         android:background="@color/bleu"
         android:text="Confirmer"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/editText2"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_marginTop="56dp" />
+        android:textStyle="bold" />
 
 </RelativeLayout>

@@ -5,21 +5,35 @@
     tools:context="com.example.aspirev.selki.MainFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Mee" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="69dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="118dp"
-        android:text="CheckBox" />
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:drawableEnd="@drawable/ic_search_black_24dp"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:text="Chercher un Covoiturage"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:drawableEnd="@drawable/ic_add_circle_outline_black_24dp"
+        android:drawableRight="@drawable/ic_add_circle_outline_black_24dp"
+        android:text="Proposer un Covoiturage"
+        android:textStyle="bold" />
 
 </RelativeLayout>
