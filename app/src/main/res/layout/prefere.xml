@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="________Préférences________"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="123dp"
+            android:layout_height="428dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="Musique"
+                android:textAlignment="center"
+                android:textColor="@color/bleu"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.15"
+                app:srcCompat="@drawable/mrouge" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/mvert" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/mgris" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="126dp"
+            android:layout_height="426dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="Cigarette"
+                android:textAlignment="center"
+                android:textColor="@color/bleu"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.15"
+                app:srcCompat="@drawable/frouge" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/fvert" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/fgris" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="Discussion"
+                android:textAlignment="center"
+                android:textColor="@color/bleu"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.15"
+                app:srcCompat="@drawable/prouge" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/pvert" />
+
+            <ImageButton
+
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/pgris" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textSize="20sp"
+            android:background="@color/bleu"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
