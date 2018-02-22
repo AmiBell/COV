@@ -11,13 +11,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:focusable="true">
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="___Informations personnelles___"
+            android:text="@string/TinfoPerso"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="20sp"
@@ -29,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Nom"
+            android:hint="@string/nom"
             android:inputType="textPersonName"
             android:paddingTop="20dp" />
 
@@ -38,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Prénom"
+            android:hint="@string/prenom"
             android:inputType="textPersonName"
             android:paddingTop="20dp" />
 
@@ -47,9 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="E-mail"
+            android:hint="@string/prompt_email"
             android:inputType="textEmailAddress"
             android:drawableRight="@drawable/mail"
+            android:drawableEnd="@drawable/mail"
             android:paddingTop="20dp"/>
 
         <EditText
@@ -57,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Tel"
+            android:hint="@string/tel"
             android:inputType="phone"
             android:paddingTop="20dp" />
 
@@ -65,7 +67,7 @@
             android:id="@+id/checkBox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ne pas afficher mon numéro de téléphone publiquement."
+            android:text="@string/notAfficheTel"
             android:paddingTop="20dp"/>
 
         <Spinner
@@ -79,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:text="Changer de mot de passe"
+            android:text="@string/changeMDP"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -89,8 +91,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/visibilityoff"
+            android:drawableStart="@drawable/visibilityoff"
             android:ems="10"
-            android:hint="Mot de passe actuel"
+            android:hint="@string/actualMDP"
             android:inputType="textPassword"
             android:paddingTop="20dp"/>
 
@@ -99,8 +102,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/visibilityoff"
+            android:drawableStart="@drawable/visibilityoff"
             android:ems="10"
-            android:hint="Nouveau mot de passe"
+            android:hint="@string/newMDP"
             android:inputType="textPassword"
             android:paddingTop="20dp"/>
 
@@ -109,8 +113,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/visibilityoff"
+            android:drawableStart="@drawable/visibilityoff"
             android:ems="10"
-            android:hint="Confirmer"
+            android:hint="@string/confirmMDP"
             android:inputType="textPassword"
             android:paddingTop="20dp"/>
 
@@ -119,7 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:text="Décrivez vous "
+            android:text="@string/decrivezVous"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -137,7 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:text="Valider les modification"
+            android:text="@string/valider"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="20sp"

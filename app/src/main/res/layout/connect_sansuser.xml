@@ -4,28 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:focusable="true">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="soniahassouna1@gmail.com"
+        android:text="androidUser@email.com"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:drawableLeft="@drawable/mail"
+        android:drawableStart="@drawable/mail"
         android:textSize="20sp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp"
         android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mot de passe oublié?"
+        android:text="@string/mdpOublie"
         android:textColor="@color/bleu"
         android:textSize="16sp"
         android:layout_below="@+id/editText9"
@@ -37,25 +36,26 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Mot de passe"
+        android:hint="@string/mdp"
         android:inputType="textPassword"
-        android:layout_marginTop="56dp"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="35dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:background="@color/colorPrimary"
-        android:text="Se connecter"
+        android:text="@string/connect"
+        android:contentDescription="@string/connect"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginBottom="22dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="60dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -66,16 +66,17 @@
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold|italic"
+        android:layout_marginTop="33dp"
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="27dp" />
+        android:layout_alignStart="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:srcCompat="@drawable/slkni"
+        android:contentDescription="@string/imageLogo"
         android:layout_marginTop="32dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

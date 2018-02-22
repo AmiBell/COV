@@ -5,15 +5,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:weightSum="3"
     android:background="@color/white">
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="________Préférences________"
+        android:text="@string/TPrefere"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:paddingTop="15dp"
         android:textAlignment="center"/>
 
@@ -21,13 +22,15 @@
         android:layout_width="match_parent"
         android:layout_height="341dp"
         android:orientation="horizontal"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:focusable="true">
 
         <LinearLayout
             android:layout_width="123dp"
             android:layout_height="428dp"
             android:orientation="vertical"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:focusable="true">
 
             <TextView
                 android:id="@+id/textView14"
@@ -36,11 +39,12 @@
                 android:paddingBottom="20dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
-                android:text="Musique"
+                android:text="@string/musique"
                 android:textAlignment="center"
                 android:textColor="@color/bleu"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -49,7 +53,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
                 android:layout_weight="0.15"
-                app:srcCompat="@drawable/mrouge" />
+                app:srcCompat="@drawable/mrouge"
+                android:layout_gravity="center"
+                android:contentDescription="@string/musicDef"/>
 
             <ImageButton
 
@@ -57,7 +63,9 @@
                 android:layout_height="75dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/mvert" />
+                app:srcCompat="@drawable/mvert"
+                android:layout_gravity="center"
+                android:contentDescription="@string/musicFav"/>
 
             <ImageButton
 
@@ -65,7 +73,9 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/mgris" />
+                app:srcCompat="@drawable/mgris"
+                android:layout_gravity="center"
+                android:contentDescription="@string/fmusicIndif"/>
 
         </LinearLayout>
 
@@ -73,7 +83,8 @@
             android:layout_width="126dp"
             android:layout_height="426dp"
             android:orientation="vertical"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:focusable="true">
 
             <TextView
 
@@ -82,11 +93,13 @@
                 android:paddingBottom="20dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
-                android:text="Cigarette"
+                android:text="@string/cigarette"
                 android:textAlignment="center"
                 android:textColor="@color/bleu"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
 
             <ImageButton
 
@@ -95,7 +108,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
                 android:layout_weight="0.15"
-                app:srcCompat="@drawable/frouge" />
+                app:srcCompat="@drawable/frouge"
+                android:layout_gravity="center"
+                android:contentDescription="@string/fumSensible"/>
 
             <ImageButton
 
@@ -103,7 +118,9 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/fvert" />
+                app:srcCompat="@drawable/fvert"
+                android:layout_gravity="center"
+                android:contentDescription="@string/fumFav"/>
 
             <ImageButton
 
@@ -111,7 +128,9 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/fgris" />
+                app:srcCompat="@drawable/fgris"
+                android:layout_gravity="center"
+                android:contentDescription="@string/fumInif"/>
 
         </LinearLayout>
 
@@ -119,7 +138,8 @@
             android:layout_width="match_parent"
             android:layout_height="425dp"
             android:orientation="vertical"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:focusable="true">
 
             <TextView
 
@@ -128,11 +148,12 @@
                 android:paddingBottom="20dp"
                 android:paddingLeft="10dp"
                 android:paddingTop="20dp"
-                android:text="Discussion"
+                android:text="@string/discussion"
                 android:textAlignment="center"
                 android:textColor="@color/bleu"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
 
             <ImageButton
 
@@ -141,7 +162,9 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
                 android:layout_weight="0.15"
-                app:srcCompat="@drawable/prouge" />
+                app:srcCompat="@drawable/prouge"
+                android:layout_gravity="center"
+                android:contentDescription="@string/discuFaible"/>
 
             <ImageButton
 
@@ -149,7 +172,9 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/pvert" />
+                app:srcCompat="@drawable/pvert"
+                android:layout_gravity="center"
+                android:contentDescription="@string/discuBien"/>
 
             <ImageButton
 
@@ -157,20 +182,23 @@
                 android:layout_height="80dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                app:srcCompat="@drawable/pgris" />
+                app:srcCompat="@drawable/pgris"
+                android:layout_gravity="center"
+                android:contentDescription="@string/discuMoy"/>
 
         </LinearLayout>
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:focusable="true">
 
         <Button
             android:id="@+id/button10"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Valider"
+            android:text="@string/valider"
             android:textSize="20sp"
             android:background="@color/bleu"
             android:layout_centerVertical="true"

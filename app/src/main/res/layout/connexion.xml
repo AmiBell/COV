@@ -1,6 +1,5 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -25,9 +24,8 @@
         android:layout_width="205dp"
         android:layout_height="146dp"
         android:background="@drawable/slkni"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/imageLogo"/>
     <ScrollView
 
         android:id="@+id/login_form"
@@ -51,8 +49,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_email"
                     android:inputType="textEmailAddress"
-                    android:maxLines="1"
-                    android:singleLine="true" />
+                    android:maxLines="1" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -64,35 +61,28 @@
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_password"
+                    android:hint="@string/mdp"
                     android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeActionLabel="@string/connect"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
-                    android:maxLines="1"
-                    android:singleLine="true" />
+                    android:maxLines="1" />
 
             </android.support.design.widget.TextInputLayout>
             <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Se souvenir de moi."
-                android:textColor="@android:color/black"
-                android:layout_below="@+id/editText"
-                android:layout_alignLeft="@+id/editText"
-                android:layout_alignStart="@+id/editText" />
+                android:text="@string/souvenir"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mot de passe oublié?"
+                android:text="@string/mdpOublie"
                 android:textColor="@color/bleu"
                 android:textSize="16sp"
-                android:layout_below="@+id/checkBox"
-                android:layout_alignLeft="@+id/button2"
-                android:layout_alignStart="@+id/button2"
                 android:layout_marginTop="11dp" />
 
             <Button
@@ -102,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/buee"
-                android:text="@string/action_sign_in"
+                android:text="@string/connect"
                 android:textStyle="bold" />
             <Button
                 android:id="@+id/email_subscribe_button"

@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:focusable="true">
 
     <TextView
         android:id="@+id/textView4"
@@ -12,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:text="Mot de passe oublié !"
+        android:text="@string/mdpOublie"
         android:textColor="@color/colorAccent"
         android:textSize="25sp" />
 
@@ -23,7 +24,7 @@
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:text="Choisissez un nouveau mot de passe"
+        android:text="@string/chooseNewMDP"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="25sp"
@@ -34,24 +35,26 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nouveau mot de passe"
+        android:hint="@string/newMDP"
         android:inputType="textPassword"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:drawableLeft="@drawable/visibilityoff"/>
+        android:drawableLeft="@drawable/visibilityoff"
+        android:drawableStart="@drawable/visibilityoff"/>
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Confirmer"
+        android:hint="@string/confirmMDP"
         android:inputType="textPassword"
         android:layout_below="@+id/editText4"
         android:layout_alignLeft="@+id/editText4"
         android:layout_alignStart="@+id/editText4"
         android:layout_marginTop="41dp"
-        android:drawableLeft="@drawable/visibilityoff"/>
+        android:drawableLeft="@drawable/visibilityoff"
+        android:drawableStart="@drawable/visibilityoff"/>
 
     <Button
         android:id="@+id/button5"
@@ -62,7 +65,8 @@
         android:layout_below="@+id/editText2"
         android:layout_marginTop="56dp"
         android:background="@color/bleu"
-        android:text="Confirmer"
+        android:text="@string/valider"
+        android:contentDescription="@string/valider"
         android:textSize="20sp"
         android:textStyle="bold" />
 

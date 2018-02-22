@@ -10,14 +10,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true">
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Proposer un covoiturage"
+            android:text="@string/proposer"
             android:textColor="@android:color/black"
             android:textSize="25sp"
             android:textAlignment="center"
@@ -29,8 +30,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Départ"
+            android:hint="@string/pt_dep"
             android:drawableRight="@drawable/dep"
+            android:drawableEnd="@drawable/dep"
             android:inputType="textPersonName"
             android:layout_marginBottom="20dp"/>
 
@@ -39,8 +41,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Arrivée"
+            android:hint="@string/pt_arv"
             android:drawableRight="@drawable/arv"
+            android:drawableEnd="@drawable/arv"
             android:inputType="textPersonName"
             android:layout_marginBottom="20dp"/>
 
@@ -49,8 +52,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Date dépare"
+            android:hint="@string/date"
             android:drawableRight="@drawable/date"
+            android:drawableEnd="@drawable/date"
             android:inputType="date"
             android:layout_marginBottom="20dp"/>
 
@@ -59,8 +63,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Heure"
+            android:hint="@string/time"
             android:drawableRight="@drawable/time"
+            android:drawableEnd="@drawable/time"
             android:inputType="time"
             android:layout_marginBottom="20dp"/>
 
@@ -69,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Nembre de place"
+            android:hint="@string/nbPlace"
             android:inputType="number"
             android:layout_marginBottom="20dp"/>
 
@@ -77,7 +82,7 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Covoiturage entre Femme"
+            android:text="@string/entreF"
             android:textColor="@color/MyRose"
             android:textSize="16sp"/>
 
@@ -85,7 +90,7 @@
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Covoiturage entre Homme"
+            android:text="@string/entreH"
             android:textColor="@color/buee"
             android:textSize="16sp"
             android:layout_marginBottom="20dp"/>
@@ -95,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Plus d'informations ..."
+            android:hint="@string/moreI"
             android:inputType="textMultiLine"
             android:layout_marginBottom="20dp"/>
 
@@ -105,14 +110,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:background="@color/Myblue"
-            android:text="Valider"
+            android:text="@string/valider"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Annuler"
+            android:text="@string/annuler"
             android:textSize="20sp"
             android:background="@color/colorAccent"
             android:layout_marginBottom="20dp"/>
