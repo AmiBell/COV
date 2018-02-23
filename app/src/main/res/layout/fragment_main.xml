@@ -36,4 +36,157 @@
         android:text="Proposer un Covoiturage"
         android:textStyle="bold" />
 
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/editText18"
+        android:layout_alignBottom="@+id/editText18"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:drawableLeft="@drawable/dep"
+        android:drawableStart="@drawable/dep"
+        android:text="De:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="USTHB"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_alignTop="@+id/multiAutoCompleteTextView"
+        android:layout_alignRight="@+id/button12"
+        android:layout_alignEnd="@+id/button12"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_below="@+id/editText18"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/arv"
+        android:drawableStart="@drawable/arv"
+        android:text="Vers"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText18"
+        android:layout_alignRight="@+id/editText18"
+        android:layout_below="@+id/editText18"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alger Centre"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView21"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText19"
+        android:layout_toRightOf="@+id/textView19"
+        android:ems="10"
+        android:inputType="date"
+        android:text="26-12-2018"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/editText23"
+        android:layout_marginTop="29dp"
+        android:text="Par:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignLeft="@+id/editText23"
+        android:layout_alignStart="@+id/editText23"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Addaa Amel"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="21ans" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText23"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:text="à:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText39"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:text="13:20"
+        android:textStyle="bold"
+        android:layout_above="@+id/editText24"
+        android:layout_alignRight="@+id/editText19"
+        android:layout_alignEnd="@+id/editText19" />
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/multiAutoCompleteTextView"
+        android:layout_alignEnd="@+id/button12"
+        android:layout_alignRight="@+id/button12" />
+
+
 </RelativeLayout>
