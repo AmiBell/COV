@@ -2,6 +2,7 @@ package com.example.aspirev.selki;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.preference.Preference;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -62,23 +63,44 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.avenir) {
-            // Handle the camera action
-        } else if (id == R.id.avisrec) {
-
-        } else if (id == R.id.map) {
-            MainFragment fragment = new MainFragment();
+        if (id == R.id.vehicule) {
+            Vehicule fragment = new Vehicule();
             android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
             FragmentTransaction.replace(R.id.fragment_container,fragment);
             FragmentTransaction.commit();
-        } else if (id == R.id.infperso) {
 
-        } else if (id == R.id.map) {
-            AvisRecuFragment fragment = new AvisRecuFragment();
+
+        } else if (id == R.id.modifierinfoperso) {
+           ModifierInfoPersonnelle fragment = new ModifierInfoPersonnelle();
             android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
             FragmentTransaction.replace(R.id.fragment_container,fragment);
             FragmentTransaction.commit();
-        } else if (id == R.id.infperso) {
+
+
+        } else if (id == R.id.cherchercovoiturage) {
+            ChercherCovoiturage fragment = new ChercherCovoiturage();
+            android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
+            FragmentTransaction.replace(R.id.fragment_container,fragment);
+            FragmentTransaction.commit();
+
+        } else if (id == R.id.proposercovoiturage) {
+            ProposerCovoiturage fragment = new ProposerCovoiturage();
+            android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
+            FragmentTransaction.replace(R.id.fragment_container,fragment);
+            FragmentTransaction.commit();
+
+        } else if (id == R.id.contactez) {
+            Contactez_nous fragment = new Contactez_nous();
+            android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
+            FragmentTransaction.replace(R.id.fragment_container,fragment);
+            FragmentTransaction.commit();
+
+
+        } else if (id == R.id.prefrences) {
+            Prefrences fragment = new Prefrences();
+            android.support.v4.app.FragmentTransaction FragmentTransaction = getSupportFragmentManager().beginTransaction() ;
+            FragmentTransaction.replace(R.id.fragment_container,fragment);
+            FragmentTransaction.commit();
 
         }
 
